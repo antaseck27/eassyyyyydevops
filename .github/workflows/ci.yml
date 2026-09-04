@@ -30,3 +30,9 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+
+      - name: Run lint
+        run: npm run lint  
+      - name: Build Docker image
+        run: docker build -t eeasydevops:1.0 . 

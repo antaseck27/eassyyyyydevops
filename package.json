@@ -15,13 +15,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest tests/health.test.js"
-    
+    "test": "jest tests/health.test.js",
+    "lint": "eslint"
   },
   "dependencies": {
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "eslint": "^10.9.1",
     "jest": "^30.5.1"
   }
 }
